@@ -22,7 +22,7 @@ def add_movie():
                       storyline=movie_form.storyline.data,
                       country=movie_form.country.data,
                       languages=movie_form.languages.data,
-                      release_date=movie_form.release_date.data,
+                      release_date=str(movie_form.release_date.data),
                       genres=movie_form.genres.data,
                       budget=movie_form.budget.data,
                       box_office_domestic=movie_form.box_office_domestic.data,
