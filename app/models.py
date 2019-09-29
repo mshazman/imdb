@@ -53,7 +53,7 @@ class Movie(db.Model):
     storyline = db.Column(db.String(1000), index=True)
     country = db.Column(db.String(120), index=True)
     languages = db.Column(db.String(120), index=True)
-    release_date = db.Column(db.DateTime, index=True)
+    release_date = db.Column(db.Date, index=True)
     genres = db.Column(db.String(120), index=True)
     budget = db.Column(db.Integer, index=True)
     box_office_domestic = db.Column(db.Integer, index=True)
