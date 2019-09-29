@@ -40,7 +40,7 @@ def add_actor():
                       twitter_url=actor_form.twitter_url.data,
                       insta_url=actor_form.insta_url.data,
                       bio=actor_form.bio.data,
-                      birthday=str(actor_form.birthday.data),
+                      birthday=actor_form.birthday.data,
                       nationality=actor_form.nationality.data,
                       spouse_name=actor_form.spouse_name.data,
                       father_name=actor_form.father_name.data,
