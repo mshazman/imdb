@@ -81,7 +81,7 @@ class AddActor(FlaskForm):
     twitter_url = StringField('Twitter Profile')
     insta_url = StringField('Instagram Profile')
     bio = StringField('Bio')
-    birthday = DateField('Date of Birth', format = '%d/%m/%Y' )
+    birthday = DateField('Date of Birth')
     nationality = StringField('Nationality')
     spouse_name = StringField('Spouse Name')
     father_name = StringField('Father Name')
