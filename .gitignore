@@ -2,7 +2,8 @@
 __pycache__
 *.py[cod]
 *$py.class
-.elasticsearch
+.elasticsearch/
+files/
 # C extensions
 *.so
 .flaskenv
